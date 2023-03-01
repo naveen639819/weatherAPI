@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav{
+    position: absolute;
+    right: 1rem;
+    font-size: 1.6rem;
+    margin: 0 1rem 0 1rem;
+    
+} 
+
+.navbar-brand{
+    font-size: 3rem;
+    font-family: 'Caveat', cursive;
+}
+
+.main_header_left{
+    margin-top: 6rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    top: 8rem;
+}
+.main_header_left p{
+    font-size: 2rem;
+}
+.man_img{
+    height: 25rem;
+    width: 40rem;
+    padding: 0;
+}
+ 
+.main_header_right{
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    top: 8rem;
+}
+
+.btn{
+    white-space: nowrap;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    width: 14rem;
+    height: 3.4rem;
+    position: relative;
+    left: 26rem;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    height: 1.5rem;
+}
+footer p{
+    color: aliceblue;
+    text-align: center;
+
+}
+.main_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
+
+.form-group{
+    font-size: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#exampleInputEmail1{
+    height: 3rem; 
+    width: 40rem;
+    font-size: 1.4rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+} 
+
+.getInfo{
+    display: flex;
+    position: relative;
+    top: 6rem;
+    width: 75rem;
+    height: 7rem;
+    /* background-color: rebeccapurple; */
+    border: 2px solid black;
+    font-size: 2rem; 
+} 
+
+.city{
+    width: 25rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.95;
+}
+.temp{
+    width: 25rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.95;
+}
+.status{
+    width: 25rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.95;
+}
+#infosentence{
+    font-family: 'Ubuntu', sans-serif; 
+    position: relative; 
+    top: 5rem;
+    font-size: 2rem;
+} 
+
+.add_color{
+    color: red;
+}
+
+@media(max-width:760px){
+
+    html{
+        font-size: 55%;
+    }
+    .main_header_left{
+        margin-top: 20rem;
+    }
+}
+
+@media(max-width:684px){
+    html{
+        /* font-size: 40%; */
+    }
+    .btn{
+        position: relative;
+        left: 0;
+    }
+}
+
+
+@media(max-width:800px){
+    .main_header{
+        position: relative;
+        top: 20rem;
+    }
+    .main_header h2{
+        position: relative;
+        /* top: 1rem; */
+    }
+    .getInfo{
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5rem;
+    width: 30rem;
+    height: 21rem;
+    /* background-color: rebeccapurple; */
+    border: 2px solid black;
+    font-size: 2rem; 
+} 
+
+.city{
+    width: 30rem;
+    height: 7rem;
+    border: none;
+}
+.temp{
+    width: 30rem;
+    height: 7rem;
+    /* border-bottom: none; */
+    border-left: none;
+    border-right: none;
+}
+.status{
+    width: 30rem;
+    height: 7rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+}
+
+@media(max-width:480px){
+
+    html{
+        
+        font-size: 30%;
+        overflow-x: hidden;
+    }
+
+}
+
